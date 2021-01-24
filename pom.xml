@@ -16,7 +16,7 @@
   <description>restapi for kafka</description>
 
   <properties>
-    <java.version>11</java.version>
+    <java.version>1.8</java.version>
   </properties>
 
   <dependencies>
@@ -33,6 +33,11 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.75</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
